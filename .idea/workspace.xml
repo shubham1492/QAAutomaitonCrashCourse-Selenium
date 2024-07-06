@@ -5,13 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f81b21f-de26-4ff3-8340-c2cb87e809e6" name="Changes" comment="Day11 - selenium locators">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Day12/FindElementExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Day12/FindElementsExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Day12/GetMethodsExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Day12/NavigationCommandsExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Day12/WebDriverCommands.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Day12/WebDriverExample2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Day12/WebElementExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Day13/ActionClassExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Day13/ActionClassExample2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Day13/DragAndDropExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Day13/DropDownExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Day13/DropDownWithoutSelect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Day13/IsDisplayExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Day13/IsSelectedExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Day13/UplaodFIleExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,12 +41,20 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.ActionClassExample.executor": "Run",
+    "Application.ActionClassExample2.executor": "Run",
+    "Application.DragAndDropExample.executor": "Run",
+    "Application.DropDownExample.executor": "Debug",
+    "Application.DropDownWithoutSelect.executor": "Run",
     "Application.FindElementExample.executor": "Run",
     "Application.FindElementsExample.executor": "Run",
     "Application.GetMethodsExample.executor": "Run",
+    "Application.IsDisplayExample.executor": "Run",
+    "Application.IsSelectedExample.executor": "Run",
     "Application.NavigationCommandsExample.executor": "Run",
     "Application.SeleniumExample.executor": "Run",
     "Application.SeleniumLocatorExample.executor": "Run",
+    "Application.UplaodFIleExample.executor": "Run",
     "Application.WebDriverCommands.executor": "Run",
     "Application.WebDriverExample2.executor": "Debug",
     "Application.WebElementExample.executor": "Run",
@@ -63,13 +72,13 @@
       <recent name="D:\Intellij workspace\QAAutomaitonCrashCourse-Selenium\src\test\resources\driver" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GetMethodsExample">
-    <configuration name="GetMethodsExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day12.GetMethodsExample" />
+  <component name="RunManager" selected="Application.UplaodFIleExample">
+    <configuration name="ActionClassExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day13.ActionClassExample" />
       <module name="QAAutomaitonCrashCourse-Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day12.*" />
+          <option name="PATTERN" value="Day13.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NavigationCommandsExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day12.NavigationCommandsExample" />
+    <configuration name="ActionClassExample2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day13.ActionClassExample2" />
       <module name="QAAutomaitonCrashCourse-Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day12.*" />
+          <option name="PATTERN" value="Day13.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WebDriverCommands" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day12.WebDriverCommands" />
+    <configuration name="DragAndDropExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day13.DragAndDropExample" />
       <module name="QAAutomaitonCrashCourse-Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day12.*" />
+          <option name="PATTERN" value="Day13.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WebDriverExample2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day12.WebDriverExample2" />
+    <configuration name="DropDownWithoutSelect" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day13.DropDownWithoutSelect" />
       <module name="QAAutomaitonCrashCourse-Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day12.*" />
+          <option name="PATTERN" value="Day13.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,12 +125,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WebElementExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day12.WebElementExample" />
+    <configuration name="UplaodFIleExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day13.UplaodFIleExample" />
       <module name="QAAutomaitonCrashCourse-Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day12.*" />
+          <option name="PATTERN" value="Day13.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GetMethodsExample" />
-        <item itemvalue="Application.WebElementExample" />
-        <item itemvalue="Application.NavigationCommandsExample" />
-        <item itemvalue="Application.WebDriverExample2" />
-        <item itemvalue="Application.WebDriverCommands" />
+        <item itemvalue="Application.UplaodFIleExample" />
+        <item itemvalue="Application.DragAndDropExample" />
+        <item itemvalue="Application.ActionClassExample2" />
+        <item itemvalue="Application.ActionClassExample" />
+        <item itemvalue="Application.DropDownWithoutSelect" />
       </list>
     </recent_temporary>
   </component>
