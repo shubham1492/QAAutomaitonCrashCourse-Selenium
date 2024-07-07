@@ -4,16 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f81b21f-de26-4ff3-8340-c2cb87e809e6" name="Changes" comment="Day11 - selenium locators">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Day13/ActionClassExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Day13/ActionClassExample2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Day13/DragAndDropExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Day13/DropDownExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Day13/DropDownWithoutSelect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Day13/IsDisplayExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Day13/IsSelectedExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Day13/UplaodFIleExample.java" afterDir="false" />
+    <list default="true" id="9f81b21f-de26-4ff3-8340-c2cb87e809e6" name="Changes" comment="Day13 - WebElement command , Action class , Upload file">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Day14/AlertExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Day14/CaptureScreenShotExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Day14/ImplicitWaitExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Day14/WindowHandleExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Day14/WindowHandleExample2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,12 +41,15 @@
   "keyToString": {
     "Application.ActionClassExample.executor": "Run",
     "Application.ActionClassExample2.executor": "Run",
+    "Application.AlertExample.executor": "Run",
+    "Application.CaptureScreenShotExample.executor": "Run",
     "Application.DragAndDropExample.executor": "Run",
     "Application.DropDownExample.executor": "Debug",
     "Application.DropDownWithoutSelect.executor": "Run",
     "Application.FindElementExample.executor": "Run",
     "Application.FindElementsExample.executor": "Run",
     "Application.GetMethodsExample.executor": "Run",
+    "Application.ImplicitWaitExample.executor": "Run",
     "Application.IsDisplayExample.executor": "Run",
     "Application.IsSelectedExample.executor": "Run",
     "Application.NavigationCommandsExample.executor": "Run",
@@ -58,6 +59,8 @@
     "Application.WebDriverCommands.executor": "Run",
     "Application.WebDriverExample2.executor": "Debug",
     "Application.WebElementExample.executor": "Run",
+    "Application.WindowHandleExample.executor": "Run",
+    "Application.WindowHandleExample2.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
@@ -72,13 +75,13 @@
       <recent name="D:\Intellij workspace\QAAutomaitonCrashCourse-Selenium\src\test\resources\driver" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.UplaodFIleExample">
-    <configuration name="ActionClassExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day13.ActionClassExample" />
+  <component name="RunManager" selected="Application.ImplicitWaitExample">
+    <configuration name="AlertExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day14.AlertExample" />
       <module name="QAAutomaitonCrashCourse-Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day13.*" />
+          <option name="PATTERN" value="Day14.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ActionClassExample2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day13.ActionClassExample2" />
+    <configuration name="CaptureScreenShotExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day14.CaptureScreenShotExample" />
       <module name="QAAutomaitonCrashCourse-Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day13.*" />
+          <option name="PATTERN" value="Day14.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DragAndDropExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day13.DragAndDropExample" />
+    <configuration name="ImplicitWaitExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day14.ImplicitWaitExample" />
       <module name="QAAutomaitonCrashCourse-Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day13.*" />
+          <option name="PATTERN" value="Day14.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DropDownWithoutSelect" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day13.DropDownWithoutSelect" />
+    <configuration name="WindowHandleExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day14.WindowHandleExample" />
       <module name="QAAutomaitonCrashCourse-Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day13.*" />
+          <option name="PATTERN" value="Day14.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,12 +128,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UplaodFIleExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day13.UplaodFIleExample" />
+    <configuration name="WindowHandleExample2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day14.WindowHandleExample2" />
       <module name="QAAutomaitonCrashCourse-Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day13.*" />
+          <option name="PATTERN" value="Day14.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.UplaodFIleExample" />
-        <item itemvalue="Application.DragAndDropExample" />
-        <item itemvalue="Application.ActionClassExample2" />
-        <item itemvalue="Application.ActionClassExample" />
-        <item itemvalue="Application.DropDownWithoutSelect" />
+        <item itemvalue="Application.ImplicitWaitExample" />
+        <item itemvalue="Application.CaptureScreenShotExample" />
+        <item itemvalue="Application.WindowHandleExample2" />
+        <item itemvalue="Application.WindowHandleExample" />
+        <item itemvalue="Application.AlertExample" />
       </list>
     </recent_temporary>
   </component>
@@ -165,12 +168,21 @@
       <option name="project" value="LOCAL" />
       <updated>1720096093160</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Day13 - WebElement command , Action class , Upload file">
+      <option name="closed" value="true" />
+      <created>1720265233469</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1720265233469</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Day11 - selenium locators" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day11 - selenium locators" />
+    <MESSAGE value="Day13 - WebElement command , Action class , Upload file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day13 - WebElement command , Action class , Upload file" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
