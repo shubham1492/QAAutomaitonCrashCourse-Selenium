@@ -5,11 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f81b21f-de26-4ff3-8340-c2cb87e809e6" name="Changes" comment="Day13 - WebElement command , Action class , Upload file">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Day14/AlertExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Day14/CaptureScreenShotExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Day14/ImplicitWaitExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Day14/WindowHandleExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Day14/WindowHandleExample2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Day17/TestNgExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Day18/TestNgDataProviderExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Day18/TestNgDataProviderExampole2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Day18/TestNgDependentExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Day18/TestNgGroupDependentExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Day18/TestNgGroupExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Day18/TestNgMultiply.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Day18/TestParameterExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Day18/TestPriorityExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/dataprovider/DP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testnggroupdependent.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testngparameter.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textnggroup.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
@@ -62,12 +71,25 @@
     "Application.WindowHandleExample.executor": "Run",
     "Application.WindowHandleExample2.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TestNG.D:/Intellij workspace/QAAutomaitonCrashCourse-Selenium/testng.xml.executor": "Run",
+    "TestNG.D:/Intellij workspace/QAAutomaitonCrashCourse-Selenium/testnggroupdependent.xml.executor": "Run",
+    "TestNG.D:/Intellij workspace/QAAutomaitonCrashCourse-Selenium/testngparameter.xml.executor": "Run",
+    "TestNG.D:/Intellij workspace/QAAutomaitonCrashCourse-Selenium/textnggroup.xml.executor": "Run",
+    "TestNG.TestNgDataProviderExample.myTest.executor": "Run",
+    "TestNG.TestNgDataProviderExampole2.executor": "Run",
+    "TestNG.TestNgDependentExample.asignIn.executor": "Run",
+    "TestNG.TestNgDependentExample.executor": "Run",
+    "TestNG.TestNgDependentExample.signIn.executor": "Run",
+    "TestNG.TestNgExample.executor": "Run",
+    "TestNG.TestNgExample.firstTest.executor": "Run",
+    "TestNG.TestNgExample.secondTest.executor": "Run",
+    "TestNG.TestPriorityExample.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/Intellij workspace/QAAutomaitonCrashCourse-Selenium/src/test/resources/driver",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.last.edited": "Facets",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -75,79 +97,79 @@
       <recent name="D:\Intellij workspace\QAAutomaitonCrashCourse-Selenium\src\test\resources\driver" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ImplicitWaitExample">
-    <configuration name="AlertExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day14.AlertExample" />
+  <component name="RunManager" selected="TestNG.TestNgDataProviderExampole2">
+    <configuration name="D:/Intellij workspace/QAAutomaitonCrashCourse-Selenium/testnggroupdependent.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="QAAutomaitonCrashCourse-Selenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Day14.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testnggroupdependent.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CaptureScreenShotExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day14.CaptureScreenShotExample" />
+    <configuration name="D:/Intellij workspace/QAAutomaitonCrashCourse-Selenium/testngparameter.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="QAAutomaitonCrashCourse-Selenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Day14.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testngparameter.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ImplicitWaitExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day14.ImplicitWaitExample" />
+    <configuration name="D:/Intellij workspace/QAAutomaitonCrashCourse-Selenium/textnggroup.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="QAAutomaitonCrashCourse-Selenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Day14.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/textnggroup.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WindowHandleExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day14.WindowHandleExample" />
+    <configuration name="TestNgDataProviderExample.myTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="QAAutomaitonCrashCourse-Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day14.*" />
+          <option name="PATTERN" value="Day18.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="Day18" />
+      <option name="MAIN_CLASS_NAME" value="Day18.TestNgDataProviderExample" />
+      <option name="METHOD_NAME" value="myTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WindowHandleExample2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day14.WindowHandleExample2" />
+    <configuration name="TestNgDataProviderExampole2" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="QAAutomaitonCrashCourse-Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day14.*" />
+          <option name="PATTERN" value="Day18.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="Day18" />
+      <option name="MAIN_CLASS_NAME" value="Day18.TestNgDataProviderExampole2" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ImplicitWaitExample" />
-        <item itemvalue="Application.CaptureScreenShotExample" />
-        <item itemvalue="Application.WindowHandleExample2" />
-        <item itemvalue="Application.WindowHandleExample" />
-        <item itemvalue="Application.AlertExample" />
+        <item itemvalue="TestNG.TestNgDataProviderExampole2" />
+        <item itemvalue="TestNG.TestNgDataProviderExample.myTest" />
+        <item itemvalue="TestNG.D:/Intellij workspace/QAAutomaitonCrashCourse-Selenium/testngparameter.xml" />
+        <item itemvalue="TestNG.D:/Intellij workspace/QAAutomaitonCrashCourse-Selenium/testnggroupdependent.xml" />
+        <item itemvalue="TestNG.D:/Intellij workspace/QAAutomaitonCrashCourse-Selenium/textnggroup.xml" />
       </list>
     </recent_temporary>
   </component>
