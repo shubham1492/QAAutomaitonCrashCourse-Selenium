@@ -4,23 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f81b21f-de26-4ff3-8340-c2cb87e809e6" name="Changes" comment="Day13 - WebElement command , Action class , Upload file">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Day17/TestNgExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Day18/TestNgDataProviderExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Day18/TestNgDataProviderExampole2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Day18/TestNgDependentExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Day18/TestNgGroupDependentExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Day18/TestNgGroupExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Day18/TestNgMultiply.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Day18/TestParameterExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Day18/TestPriorityExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/dataprovider/DP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testnggroupdependent.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testngparameter.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/textnggroup.xml" afterDir="false" />
+    <list default="true" id="9f81b21f-de26-4ff3-8340-c2cb87e809e6" name="Changes" comment="Day18 - TestNg depandent, Groups, parameter and dataprovider">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Day19/CrossBrowserTestingExamples.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Day19/ExcelReaderDataProviderExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Day19/TestAssertExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utils/ExcelReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Testdata.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testngcrosebrowser.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/dataprovider/DP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dataprovider/DP.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,9 +65,13 @@
     "Application.WindowHandleExample2.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "TestNG.D:/Intellij workspace/QAAutomaitonCrashCourse-Selenium/testng.xml.executor": "Run",
+    "TestNG.D:/Intellij workspace/QAAutomaitonCrashCourse-Selenium/testngcrosebrowser.xml.executor": "Run",
     "TestNG.D:/Intellij workspace/QAAutomaitonCrashCourse-Selenium/testnggroupdependent.xml.executor": "Run",
     "TestNG.D:/Intellij workspace/QAAutomaitonCrashCourse-Selenium/testngparameter.xml.executor": "Run",
     "TestNG.D:/Intellij workspace/QAAutomaitonCrashCourse-Selenium/textnggroup.xml.executor": "Run",
+    "TestNG.ExcelReaderDataProviderExample.verifyLoginDetails.executor": "Run",
+    "TestNG.TestAssertExample.testVerifyPageTitle.executor": "Run",
+    "TestNG.TestAssertExample.testVerifyPageTitle1.executor": "Run",
     "TestNG.TestNgDataProviderExample.myTest.executor": "Run",
     "TestNG.TestNgDataProviderExampole2.executor": "Run",
     "TestNG.TestNgDependentExample.asignIn.executor": "Run",
@@ -86,7 +83,7 @@
     "TestNG.TestPriorityExample.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Intellij workspace/QAAutomaitonCrashCourse-Selenium/src/test/resources/driver",
+    "last_opened_file_path": "D:/Intellij workspace/QAAutomaitonCrashCourse-Selenium/src/test/resources",
     "project.structure.last.edited": "Facets",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
@@ -94,13 +91,14 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Intellij workspace\QAAutomaitonCrashCourse-Selenium\src\test\resources" />
       <recent name="D:\Intellij workspace\QAAutomaitonCrashCourse-Selenium\src\test\resources\driver" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TestNgDataProviderExampole2">
-    <configuration name="D:/Intellij workspace/QAAutomaitonCrashCourse-Selenium/testnggroupdependent.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.ExcelReaderDataProviderExample.verifyLoginDetails">
+    <configuration name="D:/Intellij workspace/QAAutomaitonCrashCourse-Selenium/testngcrosebrowser.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="QAAutomaitonCrashCourse-Selenium" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testnggroupdependent.xml" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testngcrosebrowser.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -108,37 +106,53 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="D:/Intellij workspace/QAAutomaitonCrashCourse-Selenium/testngparameter.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="QAAutomaitonCrashCourse-Selenium" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testngparameter.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="D:/Intellij workspace/QAAutomaitonCrashCourse-Selenium/textnggroup.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="QAAutomaitonCrashCourse-Selenium" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/textnggroup.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestNgDataProviderExample.myTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ExcelReaderDataProviderExample.verifyLoginDetails" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="QAAutomaitonCrashCourse-Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day18.*" />
+          <option name="PATTERN" value="Day19.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Day18" />
-      <option name="MAIN_CLASS_NAME" value="Day18.TestNgDataProviderExample" />
-      <option name="METHOD_NAME" value="myTest" />
+      <option name="PACKAGE_NAME" value="Day19" />
+      <option name="MAIN_CLASS_NAME" value="Day19.ExcelReaderDataProviderExample" />
+      <option name="METHOD_NAME" value="verifyLoginDetails" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestAssertExample.testVerifyPageTitle" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="QAAutomaitonCrashCourse-Selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Day19.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Day19" />
+      <option name="MAIN_CLASS_NAME" value="Day19.TestAssertExample" />
+      <option name="METHOD_NAME" value="testVerifyPageTitle" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestAssertExample.testVerifyPageTitle1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="QAAutomaitonCrashCourse-Selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Day19.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Day19" />
+      <option name="MAIN_CLASS_NAME" value="Day19.TestAssertExample" />
+      <option name="METHOD_NAME" value="testVerifyPageTitle1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -165,11 +179,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ExcelReaderDataProviderExample.verifyLoginDetails" />
+        <item itemvalue="TestNG.D:/Intellij workspace/QAAutomaitonCrashCourse-Selenium/testngcrosebrowser.xml" />
+        <item itemvalue="TestNG.TestAssertExample.testVerifyPageTitle1" />
+        <item itemvalue="TestNG.TestAssertExample.testVerifyPageTitle" />
         <item itemvalue="TestNG.TestNgDataProviderExampole2" />
-        <item itemvalue="TestNG.TestNgDataProviderExample.myTest" />
-        <item itemvalue="TestNG.D:/Intellij workspace/QAAutomaitonCrashCourse-Selenium/testngparameter.xml" />
-        <item itemvalue="TestNG.D:/Intellij workspace/QAAutomaitonCrashCourse-Selenium/testnggroupdependent.xml" />
-        <item itemvalue="TestNG.D:/Intellij workspace/QAAutomaitonCrashCourse-Selenium/textnggroup.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -198,13 +212,31 @@
       <option name="project" value="LOCAL" />
       <updated>1720265233469</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Day17 - TestNg Basics">
+      <option name="closed" value="true" />
+      <created>1720592093064</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1720592093065</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Day18 - TestNg depandent, Groups, parameter and dataprovider">
+      <option name="closed" value="true" />
+      <created>1720592144030</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1720592144030</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Day11 - selenium locators" />
     <MESSAGE value="Day13 - WebElement command , Action class , Upload file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day13 - WebElement command , Action class , Upload file" />
+    <MESSAGE value="Day17 - TestNg Basics" />
+    <MESSAGE value="Day18 - TestNg depandent, Groups, parameter and dataprovider" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day18 - TestNg depandent, Groups, parameter and dataprovider" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -213,6 +245,15 @@
           <url>file://$PROJECT_DIR$/src/test/java/Day12/WebDriverExample2.java</url>
           <line>31</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/Day19/TestAssertExample.java</url>
+          <line>23</line>
+          <properties class="Day19.TestAssertExample" method="testVerifyPageTitle">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
